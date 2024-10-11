@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* text-align: center; */
+    /* max-width: 800px; */
+    margin: 0 200px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: auto repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-template-rows: 40px 200px 30px ;
+
+    /* grid-template-rows: auto auto 1fr; */
+    /* border-right: 00px; */
+}
+
+.title {
+    font-weight:bolder;
+  font-size: 24px;
+  margin-bottom: 10px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: #ccc;
+  text-align: center;
+}
+.price-details span {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .more-info {
+    margin-bottom: 30px;
+  }
+.more-info a{
+    color: black;
+}
+.add-to-cart {
+    font-weight:bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* padding: 8px ; */
+    grid-column-start: 4;
+    grid-column-end: 8;
+    background-color: black;
+    padding-right: 200px;
+    text-decoration: none;
+    color: white;
+  }
+  .footer{
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  background-color: black;
+
+} 
+
+.footer a {
+  display: block;
+}
+
+.sale {
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  width: 40px;
+  font-size: 14px;
+  position: relative;
+  top: -3px;
+  text-align: center ;
+  margin-left: 175px;
+  margin-bottom: -20px;
+}
+  .image img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+.price {
+    display: inline;
+}
+
+.price-details, .product-details {
+    margin: 25px 25px;
+}
+.free-shipping {
+  font-size: 12px;
+  color: gray;
+  float:right;
+  /* margin-bottom: 20px; */
+}
+  
+  /* .details {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  } */
+  
+  
+  
+  /* .price {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .description {
+    margin-bottom: 20px;
+  }
+  
+  
+  .product-details ul {
+    /* list-style-type: none; 
+    padding: 0;
+  }
+  
+  .product-details li {
+    margin-bottom: 10px;
+  } */
+  
+  /* .footer{
+    background-color: black;
+  } */
+  
